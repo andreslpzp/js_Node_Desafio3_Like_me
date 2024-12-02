@@ -28,8 +28,3 @@ app.use(express.json());
 app.use('/', APIRoutes)
 
 module.exports = app;
-
-//app.listen(3000, console.log("¡Servidor encendido!"))
-//app.get("/home", (req, res) => {
-//res.send("Hello World Express Js")
-//})
