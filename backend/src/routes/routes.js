@@ -3,7 +3,7 @@
 const {Router} = require('express');
 
 //Importamos las funciones desde Controles
-const {AgregarPostDB, ListarPostDB} = require('../controles/functPost');
+const {AgregarPostDB, ListarPostDB} = require('../controllers/functPost');
 
 const router = Router();
 

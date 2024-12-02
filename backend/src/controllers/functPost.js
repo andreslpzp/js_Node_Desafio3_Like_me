@@ -8,7 +8,7 @@ const AgregarPostDB = async (req, res) => {
     const respuesta = await Post.AgregarPost(titulo, url, descripcion)
 
     res.status(200).json({
-        msg: "Post Agregado con Exito!",
+        msg: "Post Agregado con éxito!",
         data: respuesta
     })
 };

@@ -5,7 +5,7 @@ const morgan = require('morgan');
 const cors = require('cors')
 
 //Importamos las Rutas del archivo de Rutas
-const APIRoutes = require('./rutas/routes');
+const APIRoutes = require('./routes/routes');
 
 const app = express();
 
